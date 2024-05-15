@@ -5,7 +5,7 @@ Accept line-delimited domains on stdin, fetch known URLs from the Wayback Machin
 Usage :
 
 ```
-▶ cat domains.txt | waybackurls > urls
+▶ cat domains.txt | go run main.go > urls
 ```
 
 Install:
